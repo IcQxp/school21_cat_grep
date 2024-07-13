@@ -7,13 +7,7 @@
 #include <errno.h>
 
 typedef struct {
-	char b;
-	char e;
-	char n;
-	char s;
-	char t;
-	char v;
-
+	char b, e, n, s, t, v;
 } Flags;
 
 enum option_codes {
